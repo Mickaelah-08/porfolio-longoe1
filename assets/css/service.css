@@ -33,50 +33,111 @@ html,
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  background: white;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  background: #FCFBFC;
   font-family: "SpaceGrotesk", sans-serif;
+  box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .service {
-  margin: 0px 60px;
-
-}
-.titre {
-  width: 580px;
-  margin: 50px auto;
-  height: 140px;
-}
-span {
-  padding: 5px;
-  background: rgba(133, 103, 85, 1);
-  color: white;
-}
-.box {
-  padding-right: 10px;
-  padding-top: 30px;
-  display: flex;
-
   width: 100%;
-  gap: 30px;
-  box-sizing: border-box;
-  height: 379px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
 }
-.littlebox {
-  padding: 20px;
-  text-align: start;
 
-  background: rgba(246, 246, 246, 1);
+.service .inner-section {
+  max-width: 1624px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 98px;
+}
+
+.service .inner-section .titre {
+  max-width: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.service .inner-section .titre h1 {
+  font-size: 40px;
+  font-weight: 500;
+
+}
+.service .inner-section .titre h1 span {
+  background-color: #856755;
+  color: white;
+  padding: 0px 10px;
+}
+.service .inner-section .titre p {
+ 
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+
+.service .inner-section .box {
+  display: flex;
+  width: 100%;
+  gap: 26px;
+}
+
+.service .inner-section .box .card {
+  padding: 22px;
+  min-height: 379px;
+  text-align: start;
+  background: #f6f6f6;
   flex: 1;
   border-radius: 20px;
+  border: 1px solid #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
-.para {
-  padding-top: 30px;
+
+.service .inner-section .box .card .card-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
-p {
-  line-height: 1.5;
-  padding: 5px;
+.service .inner-section .box .card .card-conent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.service .inner-section .box .card .card-conent h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.service .inner-section .box .card .card-conent p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: black;
+}
+
+@media screen  and (max-width: 768px) {
+  .service {
+    padding: 20px;
+  }
+  .service .inner-section .box {
+    flex-direction: column;
+  }
 }
