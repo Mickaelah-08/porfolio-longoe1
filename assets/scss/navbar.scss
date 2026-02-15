@@ -1,4 +1,44 @@
 @use "mixings" as m;
+@use "colors" as color;
 .navbar {
   @include m.flex-center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  .container {
+    @include m.flex-center;
+    gap: 16px;
+    background-color: color.$black;
+    padding: 12px 13px;
+    border-radius: 100px;
+    margin-top: 32px;
+
+    .nav-link {
+      transition: all 0.3s ease;
+      color: color.$white;
+      text-decoration: none;
+      padding: 0 16px;
+      font-size: 16px;
+      font-weight: medium;
+      @include m.flex-center;
+      padding: 12px 22px;
+      gap: 10px;
+      border-radius: 100px;
+      &:hover {
+        background-color: color.$white;
+        color: color.$black;
+      }
+      &.active {
+        background-color: color.$white;
+        color: color.$black;
+      }
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+    }
+  }
 }
