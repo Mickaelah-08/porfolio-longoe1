@@ -1,3 +1,9 @@
 @use "fonts";
 @use "colors" as color;
 @use "reset";
+@use "animation";
+
+html,
+body {
+  background: color.$background;
+}
