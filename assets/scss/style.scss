@@ -1,8 +1,13 @@
+// base and variables
 @use "fonts";
 @use "colors" as color;
 @use "reset";
 @use "animation";
+
+// sections and components
 @use "navbar";
+@use "hero";
+
 html,
 body {
   background: color.$background;
