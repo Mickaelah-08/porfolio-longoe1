@@ -1,10 +1,11 @@
+@use "reset";
 // base and variables
 @use "fonts";
 @use "colors" as color;
-@use "reset";
 @use "animation";
 
 // sections and components
+@use "components/button";
 @use "navbar";
 @use "hero";
 
@@ -12,4 +13,6 @@ html,
 body {
   background: color.$background;
   font-family: "SpaceGrotesk", sans-serif;
+  margin: 0;
+  padding: 0;
 }
