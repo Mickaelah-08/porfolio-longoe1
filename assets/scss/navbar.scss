@@ -1,0 +1,4 @@
+@use "mixings" as m;
+.navbar {
+  @include m.flex-center;
+}
