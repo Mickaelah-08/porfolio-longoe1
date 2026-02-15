@@ -2,7 +2,7 @@
 @use "colors" as color;
 @use "reset";
 @use "animation";
-
+@use "navbar";
 html,
 body {
   background: color.$background;
