@@ -1,0 +1,151 @@
+/* font */
+@font-face {
+  font-family:"SpaceGrotesk" ;
+  src: url("../fonts/space-grotesk/static/SpaceGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"SpaceGrotesk" ;
+  src: url("../fonts/space-grotesk/static/SpaceGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"SpaceGrotesk" ;
+  src: url("../fonts/space-grotesk/static/SpaceGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family:"SpaceGrotesk" ;
+  src: url("../fonts/space-grotesk/static/SpaceGrotesk-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    margin: 0;
+  padding: 0;
+  background: #FCFBFC;
+  font-family: "SpaceGrotesk", sans-serif;
+  box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.portfolio .intro {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    gap: 20px;
+    width: 60% ;
+} 
+
+.portfolio .intro ul {
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.portfolio .intro p {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.portfolio .intro .name {
+    padding: 10px;
+    
+}
+
+.portfolio .intro .name span {
+    margin: 100px;
+    color: #856755;
+    font-weight: bold;
+}
+
+.portfolio .intro .information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.portfolio .intro .lien {
+    min-width: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .intro .lien a {
+    text-decoration: none;
+    padding: 7px 25px;
+    background:  #856755;
+    color: white ;
+    border-radius: 20px;
+}
+
+    .portfolio .intro .lien a:hover{
+        background: #f6f6f6;
+        color: #856755;
+        border:1px solid  #856755;
+        transition: background-color 0.5s ease;
+    }
+
+.portfolio .me {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding-top: 50px;
+    background: #856755;
+    border-radius: 50px 50px 0 0;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+}
+
+.portfolio .me .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .me .contact i {
+    font-size: 50px;
+    padding: 20px;
+    color: #f6f6f6;
+}
+
+.portfolio .me .contact i:hover {
+    color: rgba(172, 172, 172, 0.767);
+    transition: color 0.3s ease;
+}
+
+.portfolio .me .annonce h2 {
+    color: #f6f6f6;
+}
