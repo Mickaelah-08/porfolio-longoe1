@@ -1,0 +1,53 @@
+@use "colors" as color;
+@use "mixings" as m;
+
+.slider-bar {
+  width: 100%;
+  padding-top: 40px;
+  min-height: 400px;
+  overflow: hidden;
+  .marquee-container {
+    transform: translateX(-110px) rotate(7.29deg);
+    width: 120%;
+    margin-top: 100px;
+    height: 125px;
+    background-color: color.$primary;
+    color: color.$white;
+    @include m.flex-center;
+    &.black {
+      transform: translateX(-50px) rotate(-12deg);
+      background-color: color.$black;
+    }
+
+    .marquee {
+      display: flex;
+      width: max-content;
+      animation: scroll 20s linear infinite;
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 49px;
+        padding: 0;
+        margin: 0;
+
+        li {
+          display: block;
+          font-size: 40px;
+          line-height: 56px;
+          color: color.$white;
+          white-space: nowrap;
+          text-wrap: nowrap;
+        }
+      }
+    }
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
