@@ -11,7 +11,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 50px 16px;
+    gap: 40px;
     
 }
 .membre {
@@ -31,7 +33,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
-    min-height: 300px;
     gap: 20px;
    
 }
