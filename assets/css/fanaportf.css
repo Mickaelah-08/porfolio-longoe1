@@ -108,7 +108,7 @@ body {
         background: #f6f6f6;
         color: #856755;
         border:1px solid  #856755;
-        transition: background-color 0.5s ease;
+        transition: background-color 0.3s ease;
     }
 
 .portfolio .me {

@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FCFBFC;
+  font-family: "SpaceGrotesk", sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box .card img {
+    width: 100%;
+    height: 190px;
+    border-radius: 20px 20px 0 0;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    gap: 20px;
+}
+
+.box .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 10px ;
+    background:  #f6f6f6;
+    border-radius: 20px;
+}
+
+.box .card .all {
+    margin-top: 10px;
+}
+
+.box .card .all .nom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10px;
+}
+
+.box .card .all .nom p {
+    color: gray;
+    font-size: 13px;
+}
+
+.box .card .all .viavc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.box .card .all .viavc a {
+    color: #FCFBFC;
+    text-decoration: none;
+    background: #856755;
+    border-radius: 50px;
+    padding: 10px;
+    width: 100px;
+    
+}
+
+/* .box .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+} */
