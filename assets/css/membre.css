@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #fcfbfc;
-  font-family: "SpaceGrotesk", sans-serif;
-  box-sizing: border-box;
-  /* border: 1px solid red; */
-}
-
 .team-container {
   display: flex;
   justify-content: center;
@@ -16,6 +7,7 @@ body {
   gap: 40px;
   min-height: 100vh;
   margin: 50px 0;
+  padding-top: 20vh;
 }
 .team-container .titre {
   max-width: 580px;
