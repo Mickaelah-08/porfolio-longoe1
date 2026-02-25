@@ -45,3 +45,13 @@ h2{
     padding-left: 10px;
     text-transform: uppercase;
 }
+p. li{
+    font-size: 14px;
+    line-height: 1.6;
+}
+ul{
+    margin-left: 15px;
+}
+section{
+    margin-bottom: 15px;
+}
