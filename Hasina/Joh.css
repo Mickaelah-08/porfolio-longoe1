@@ -55,3 +55,11 @@ ul{
 section{
     margin-bottom: 15px;
 }
+.left h2{
+    color: #8c6b3f;
+    border-left: 5px solid #8c6b3f;
+}
+.right h2{
+    color: #d4af37;
+    border-left: 5px solid #d4af37;
+}
