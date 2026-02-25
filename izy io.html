@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="fr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAZAFINIAINA Valimbavaka Modestine — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader-letters">
+        <span>V</span><span>A</span><span>L</span><span>I</span><span>M</span
+        ><span>B</span><span>A</span><span>V</span><span>A</span><span>K</span
+        ><span>A</span>
+      </div>
+      <div class="loader-line"></div>
+    </div>
+
+    <div class="cursor" id="cursor"></div>
+
+    <header id="header">
+      <div class="logo">VM<span>.</span></div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-btn" id="themeBtn">
+          <span class="theme-icon" id="themeIcon">☀️</span>
+          <span id="themeLabel">Clair</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-bg-text">VALIMBAVAKA</div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="hero-layout">
+        <div class="hero-left">
+          <div class="hero-eyebrow">
+            <div class="eyebrow-dot"></div>
+            <span class="eyebrow-text">Disponible · Fianarantsoa</span>
+          </div>
+          <h1 class="hero-name">
+            RAZAFI<br />NIAINA<br /><span class="pink-block">Valimbavaka.</span>
+          </h1>
+          <p class="hero-role">Développeuse Web & Applications — DA2I · EMIT</p>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <span class="meta-tag">Tél</span>
+              <span>038 33 474 45</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-tag">Email</span>
+              <span>valimbavakamodestine@gmail.com</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-tag">Lieu</span>
+              <span>Fianarantsoa, Madagascar</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="photo-container">
+            <div class="geo-circle geo-1"></div>
+            <div class="geo-circle geo-2"></div>
+            <div class="geo-cross cross-1">+</div>
+            <div class="geo-cross cross-2">✦</div>
+            <div class="photo-box">
+              <img
+                src="photo.jpeg"
+                alt="Valimbavaka Modestine"
+                class="photo-img"
+              />
+              <!-- <div class="photo-initials">VM</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="padding: 40px 0 0">
+      <div class="section-divider">
+        <span class="divider-label">À propos</span>
+        <div class="divider-line"></div>
+      </div>
+    </div>
+
+    <div class="sec sec-light" id="about">
+      <div class="sec-inner">
+        <div class="sec-head reveal">
+          <div>
+            <div class="sec-number">01 / À PROPOS</div>
+            <h2 class="sec-title">Qui <span>suis-je ?</span></h2>
+          </div>
+        </div>
+        <div class="about-bento">
+          <div class="bento-card wide reveal">
+            <div class="bento-accent"></div>
+            <div class="bento-label">Profil</div>
+            <h3>Étudiante en Informatique</h3>
+            <p>
+              1ère année de Licence, spécialisée en Développement d'Applications
+              Internet et Intranet (DA2I) à l'École de Management et
+              d'Innovation Technologique (EMIT), Fianarantsoa.
+            </p>
+            <br />
+            <p>
+              Passionnée par le code et la création d'interfaces, je suis
+              curieuse, déterminée et toujours prête à apprendre de nouvelles
+              technologies pour évoluer.
+            </p>
+          </div>
+          <div class="bento-card reveal" style="transition-delay: 0.1s">
+            <div class="bento-label">Informations</div>
+            <p><strong>Nom :</strong> RAZAFINIAINA</p>
+            <p><strong>Prénom :</strong> Valimbavaka Modestine</p>
+            <p><strong>Contact :</strong> 038 33 474 45</p>
+          </div>
+          <div class="bento-card reveal" style="transition-delay: 0.15s">
+            <div class="bento-label">Langues</div>
+            <div style="margin-top: 8px">
+              <span class="lang-pill">🇫🇷 Français</span>
+              <span class="lang-pill">🇬🇧 Anglais</span>
+              <span class="lang-pill">🇲🇬 Malgache</span>
+            </div>
+          </div>
+          <div class="bento-card reveal" style="transition-delay: 0.2s">
+            <div class="bento-label">Intérêts</div>
+            <div class="interest-row">
+              <span class="interest-em">📚</span
+              ><span class="interest-name">Lecture</span>
+            </div>
+            <div class="interest-row">
+              <span class="interest-em">✈️</span
+              ><span class="interest-name">Voyage</span>
+            </div>
+            <div class="interest-row">
+              <span class="interest-em">🎬</span
+              ><span class="interest-name">Séries</span>
+            </div>
+            <div class="interest-row">
+              <span class="interest-em">🏀</span
+              ><span class="interest-name">Basket</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec sec-dark" id="skills">
+      <div class="sec-inner">
+        <div class="sec-head reveal">
+          <div>
+            <div class="sec-number">02 / COMPÉTENCES</div>
+            <h2 class="sec-title">Stack <span>&</span><br />Outils</h2>
+          </div>
+        </div>
+        <div class="skills-layout">
+          <div>
+            <div class="skill-block" data-w="88">
+              <div class="skill-top">
+                <span class="skill-lbl">HTML</span
+                ><span class="skill-num">88%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-block" data-w="82" style="transition-delay: 0.1s">
+              <div class="skill-top">
+                <span class="skill-lbl">CSS</span
+                ><span class="skill-num">82%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-block" data-w="73" style="transition-delay: 0.2s">
+              <div class="skill-top">
+                <span class="skill-lbl">JavaScript</span
+                ><span class="skill-num">73%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-block" data-w="68" style="transition-delay: 0.3s">
+              <div class="skill-top">
+                <span class="skill-lbl">Java</span
+                ><span class="skill-num">68%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-bar-fill"></div></div>
+            </div>
+          </div>
+          <div class="tools-section reveal">
+            <div class="tools-title">Outils & Logiciels</div>
+            <div>
+              <span class="tool-chip">Visual Studio Code</span>
+              <span class="tool-chip">GitHub</span>
+              <span class="tool-chip">Git</span>
+              <span class="tool-chip">MS Office</span>
+              <span class="tool-chip">MS Access</span>
+              <span class="tool-chip">MS Excel</span>
+              <span class="tool-chip">MS PowerPoint</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec sec-light" id="projects">
+      <div class="sec-inner">
+        <div class="sec-head reveal">
+          <div>
+            <div class="sec-number">03 / PROJETS</div>
+            <h2 class="sec-title">Mes <span>réalisations</span></h2>
+          </div>
+        </div>
+        <div class="proj-list reveal">
+          <div class="proj-row">
+            <div class="proj-num">01</div>
+            <div class="proj-info">
+              <div class="proj-cat">Portfolio</div>
+              <div class="proj-name">Portfolio Personnel</div>
+              <div class="proj-desc">
+                Site web personnel présentant profil, compétences et projets.
+                Design moderne et responsive.
+              </div>
+            </div>
+            <div class="proj-tags">
+              <span class="proj-tag">HTML</span>
+              <span class="proj-tag">CSS</span>
+              <span class="proj-tag">JS</span>
+            </div>
+            <span class="proj-arrow">→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec sec-dark" id="contact">
+      <div class="sec-inner">
+        <div class="sec-head reveal">
+          <div>
+            <div class="sec-number">04 / CONTACT</div>
+            <h2 class="sec-title">Travaillons<br /><span>ensemble</span></h2>
+          </div>
+        </div>
+        <div class="contact-layout">
+          <div class="reveal">
+            <p class="contact-tagline">
+              Vous avez un <span>projet</span> en tête ?
+            </p>
+            <div class="contact-items">
+              <div class="c-item">
+                <span class="c-badge">Tél</span
+                ><span class="c-val">038 33 474 45</span>
+              </div>
+              <div class="c-item">
+                <span class="c-badge">Email</span
+                ><span class="c-val">valimbavakamodestine@gmail.com</span>
+              </div>
+              <div class="c-item">
+                <span class="c-badge">Lieu</span
+                ><span class="c-val">Fianarantsoa, Madagascar</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" style="transition-delay: 0.15s">
+            <div class="f-row">
+              <input class="form-field" type="text" placeholder="Votre nom" />
+              <input
+                class="form-field"
+                type="email"
+                placeholder="Votre email"
+              />
+            </div>
+            <textarea
+              class="form-field"
+              placeholder="Votre message..."
+              rows="5"
+            ></textarea>
+            <button type="submit" class="btn-send">
+              Envoyer <span class="arrow">→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot-logo">VM<span>.</span></div>
+      <p class="foot-copy">© 2026 RAZAFINIAINA Valimbavaka Modestine</p>
+      <div class="foot-links">
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
