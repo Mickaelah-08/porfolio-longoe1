@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    background: #ffff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid aqua;
+    padding-bottom: 15px;
+}
+
+.header .profile-pic {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-right: 20px;
+}
+
+.name-info {
+    text-align: left;
+}
+
+.header h1 {
+    margin: 0;
+    color: aqua;
+}
+
+.header p {
+    margin: 5px 0;
+    color: #555;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.section img{
+    border-radius: 25px;
+    max-width: 155px;
+    border: #ddd;
+    margin-top: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px;
+    margin-left: 15px;
+}
