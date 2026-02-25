@@ -4,3 +4,11 @@
     box-sizing:border-box;
     font-family: Arial, sans-serif;
 }
+img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid #8c6b3f;
+}
