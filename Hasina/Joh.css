@@ -26,3 +26,14 @@ img{
     padding: 20px;
     color: #3b2f2f;
 }
+.right{
+    width: 65%;
+    background: #4b2e2e;
+    color: white;
+    padding: 25px;
+}
+.name{
+    font-size: 32px;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
