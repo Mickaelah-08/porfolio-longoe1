@@ -1,0 +1,132 @@
+/* Réinitialisation de base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style global */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+
+    max-width: 900px;
+    margin:20px auto;
+    padding: 20px;
+}
+
+/* En tête */
+h1{
+    font-size: 2.5rem;
+    color: #2d72d9;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.2rem;
+    color: #777;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* titres des sections */
+h2{
+    font-size: 1.8rem;
+    color: #2d72d9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    border-bottom: 2px solid #2d72d9;
+    padding-bottom: 8px;
+}
+
+/* listes */
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul li{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Liens (email, etc.) */
+ul li a{
+    color:#2d72d9;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Identités: texte à gauche + image à droite */
+.Identites-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: -moz-hidden-unscrollable;
+    background: #f4f4f4;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* Icon style */
+.icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.contacts li:hover{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding-left: 5px;
+    transition: 0.2s;
+}
+
+/* Effet de survol sur les éléments */
+li:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {font-size: 2rem;}
+    h2 {font-size: 1.6rem;}
+    ul li {font-size: 1rem;}
+
+    /* Empile sur mobil */
+    .identites-content {
+        flex-direction: column;
+    }
+
+    .profil{
+        margin-top: 10px;
+    }
+}
