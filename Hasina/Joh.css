@@ -12,3 +12,11 @@ img{
     margin: auto;
     border: 5px solid #8c6b3f;
 }
+.cv-container{
+    width: 900px;
+    display: flex;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0,4);
+    border-radius: 12px;
+    overflow: hidden;
+}
