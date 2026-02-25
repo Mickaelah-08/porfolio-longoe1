@@ -52,6 +52,18 @@ footer .inner-footer {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
+
+@media screen and (max-width: 1000px) {
+  footer .inner-footer {
+    display:block;
+    align-items: center;
+    padding: 10px; 
+  }
+  footer .map-container{
+    padding-top: 20px;
+  }  
+}
+
 footer .inner-footer .contact-container {
   width: 100%;
   display: flex;

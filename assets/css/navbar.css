@@ -18,6 +18,13 @@
   border-radius: 100px;
   margin-top: 32px;
 }
+
+/* @media screen and (max-width: 400px){
+  .navbar{
+    width: 10px;
+    align-items: center;
+  }
+} */
 .navbar .container .nav-link {
   transition: all 0.3s ease;
   color: white;
