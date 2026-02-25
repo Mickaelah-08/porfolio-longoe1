@@ -1,0 +1,83 @@
+.img-cercle {
+        width: 450px;
+        height: 450px;
+        background-color:#ccc;
+        border-radius: 10px;
+        object-fit: cover;
+}
+
+h1 {
+ color: maroon;
+}
+
+body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.box {
+        background-color: rgb(96, 99, 100);
+        padding: 75px;
+        border-radius: 30px;
+        width: fit-content;
+        color: aliceblue;
+        font-size: 21px ;
+        box-shadow: 0 0 20px rgb(238, 234, 234), 0 0 35px maroon
+}
+
+ h3 {
+        font-style: italic;
+        font-size: 25px;
+
+ }
+
+.Art {
+        background-color:rgb(96, 99, 100);
+        padding: 85px;
+        border-radius: 30px;
+        width: fit-content;
+        color: aliceblue;
+        font-size: 30px;
+        box-shadow: 0 0 20px rgb(238, 234, 234), 0 0 35px maroon
+        
+}
+
+
+.info {
+         background-color: rgb(96,99,100);
+         padding: 75px;
+         border-radius: 30px;
+         width: fit-content;
+         color: aliceblue;
+         font-size: 23px;
+         box-shadow: 0 0 20px rgb(238, 234, 234), 0 0 35px maroon
+
+}
+
+.Malagasy {
+        background-color: rgb(96,99,100);
+        padding: 85px;
+        border-radius: 30px;
+        width: fit-content;
+        color: aliceblue;
+        font-size: 30px;
+        box-shadow: 0 0 20px rgb(238, 234, 234), 0 0 35px maroon
+ }
+
+
+.foot {
+        background-color: rgb(96,99,100);
+        padding: 85px;
+        border-radius: 30px;
+        width: fit-content;
+        color: aliceblue;
+        font-size: 35px;
+box-shadow: 0 0 20px rgb(238, 234, 234), 0 0 35px maroon
+        
+
+}
+
+body {
+        background-color: rgb(228, 237, 247);
+      
+}

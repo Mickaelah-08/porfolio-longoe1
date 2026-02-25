@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(128, 96, 50);
+    font-size: 25px;
+    padding: 18px;
+    align-items: center;
+    font-weight: 14px;
+    min-height: 10vh;
+    border-radius: 100px;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    color: rgb(233, 237, 240);
+}
+
+a{
+    text-decoration: none
+    color rgb(252, 252, 246);
+    padding: 10 px 30px;
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color: black;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.menu {
+    color: aliceblue;
+}
+
+.highlight {
+    background-color:  rgb(128, 96, 50);
+    color: aliceblue;
+}
+
+.cc {
+    background-color: rgb(128, 96, 50) ;
+    padding: 14px;
+}
+
+.btn {
+    padding: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-size: 25px;
+}
+.container img {
+    width: 280px;
+    height: 200 px;
+}
