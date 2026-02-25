@@ -28,7 +28,7 @@ img{
 }
 .right{
     width: 65%;
-    background: #4b2e2e;
+    background: #4b3832;
     color: white;
     padding: 25px;
 }
@@ -36,6 +36,10 @@ img{
     font-size: 32px;
     color: #d4af37;
     margin-bottom: 10px;
+}
+h1{
+    font-size: 32px;
+    letter-spacing: 2px;
 }
 h2{
     font-size: 18px;
@@ -46,7 +50,7 @@ h2{
     text-transform: uppercase;
 }
 p. li{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6;
 }
 ul{
@@ -65,10 +69,4 @@ section{
 }
 strong{
     color: #d4af37;
-}
-.cv-container{
-    flex-direction: column;
-}
-.left, .right{
-    width: 100%;
 }
