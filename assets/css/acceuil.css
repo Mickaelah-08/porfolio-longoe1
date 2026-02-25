@@ -64,6 +64,10 @@
   text-decoration: none;
   line-height: 1;
   border: 2px solid #856755;
+  transition: 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+.button:hover {
+  transform: scale(1.1);
 }
 .button .icon {
   width: 22px;
