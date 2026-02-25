@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.hero {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+/* Bande commune */
+.band {
+    position: absolute;
+    width: 140%;
+    left: -20%;
+    padding: 18px 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.band p {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Bande noire */
+.black {
+    background: #000;
+    color: #fff;
+    top: 110px;
+    transform: rotate(-6deg);
+    z-index: 1;
+}
+
+/* Bande marron */
+.brown {
+    background: #8b6f5c;
+    color: #fff;
+    top: 95px;
+    transform: rotate(6deg);
+    z-index: 2;
+}
+
+/* Animation defilement */
+.scroll {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translatex(-50%);
+    }
+}
